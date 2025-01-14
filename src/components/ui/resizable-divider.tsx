@@ -32,7 +32,6 @@ export function ResizableDivider({
       const leftWidth =
         ((e.clientX - containerRect.left) / containerRect.width) * 100;
 
-      // 限制最小宽度为20%
       const clampedWidth = Math.max(20, Math.min(80, leftWidth));
       onResize(clampedWidth);
     };
