@@ -21,6 +21,17 @@ Based on clothing description and parameter settings, use AI to generate clothin
 Select the model to use for try-on and start the AI virtual try-on process.
 ![](docs/302_AI_Virtual_Try_On_en_screenshot_03.png)     
 
+HD Portrait feature makes the images clearer.
+![](docs/302_AI_Virtual_Try_On_screenshot_04.jpg)        
+
+Background removal feature, one-click to remove image background.
+![](docs/302_AI_Virtual_Try_On_screenshot_05.jpg)    
+
+Secondary lighting feature, supports inputting lighting descriptions or uploading background images, selecting light source direction to apply secondary lighting to the image.
+![](docs/302_AI_Virtual_Try_On_screenshot_06.png)     
+
+Try-on image after secondary lighting.
+![](docs/302_AI_Virtual_Try_On_screenshot_07.jpg) 
 
 ## Project Features
 ### 👚 Model Images
@@ -29,6 +40,12 @@ Generate model images using AI based on model descriptions and parameter setting
 Generate clothing images using AI based on clothing descriptions and parameter settings, or upload clothing images locally.
 ### 🧚 AI Try-On
 Select the model you want to use and start the AI virtual try-on.
+### 🖼️ HD Portrait
+After generating the try-on image, use AI to make the image clearer and higher quality.
+### ✂️ Background Removal
+After generating the try-on image, use AI to remove the background.
+### 🔦 Secondary Lighting
+After generating the try-on image, use AI to apply secondary lighting.
 ### 📜 History Records
 Save your creation history, never lose your memories, download anytime, anywhere.
 ### 🌓 Dark Mode
@@ -39,9 +56,7 @@ It supports dark mode to protect your eyes.
 - Japanese Interface
 
 ## 🚩 Future Update Plans
-- [ ] New Feature: High-Resolution Portraits
-- [ ] New Feature: Background Removal
-- [ ] New Feature: Secondary Lighting
+- [ ] Support selecting both tops and bottoms simultaneously for complete outfit coordination
 
 ## 🛠️ Tech Stack
 
@@ -60,8 +75,8 @@ It supports dark mode to protect your eyes.
 ## Development & Deployment
 1. Clone the project
 ```bash
-git clone https://github.com/302ai/302_clothing_change
-cd 302_clothing_change
+git clone https://github.com/302ai/302_virtual_try_on
+cd 302_virtual_try_on
 ```
 
 2. Install dependencies

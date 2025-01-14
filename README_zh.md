@@ -21,6 +21,18 @@
 选择换装使用的模型，开始进行AI换装。
 ![](docs/302_AI_Virtual_Try_On_screenshot_03.png)
 
+高清人像功能，使图片变得更清晰。
+![](docs/302_AI_Virtual_Try_On_screenshot_04.jpg)        
+
+消除背景功能，一键去除图片背景。
+![](docs/302_AI_Virtual_Try_On_screenshot_05.jpg)    
+
+二次打光功能，支持输入打光描述或上传背景图片，选择光源方向，即可对图片进行二次打光。
+![](docs/302_AI_Virtual_Try_On_screenshot_06.png)     
+
+二次打光后的换装图。
+![](docs/302_AI_Virtual_Try_On_screenshot_07.jpg) 
+
 ## 项目特性
 ### 👚 模特图
 根据模特描述和参数设置，使用AI生成模特图或本地上传模特图。   
@@ -28,6 +40,12 @@
 根据服装描述和参数设置，使用AI生成服装图或本地上传服装图。
 ### 🧚 AI换装
 选择你想使用的模型，即可开始AI换装。
+### 🖼️ 高清人像
+生成换装图后，使用AI使图片变得更高清。
+### ✂️ 消除背景
+生成换装图后，使用AI消除背景。
+### 🔦 二次打光
+生成换装图后，使用AI进行二次打光。 
 ### 📜 历史记录
 保存您的创作历史,记忆不丢失，随时随地都可以下载。
 ### 🌓 暗色模式
@@ -38,9 +56,7 @@
   - 日本語インターフェース
 
 ## 🚩 未来更新计划
-- [ ] 新增功能：高清人像
-- [ ] 新增功能：背景移除
-- [ ] 新增功能：二次打光
+- [ ] 支持同时选择上衣和下装，实现一套全身搭配
 
 ## 🛠️ 技术栈
 
@@ -59,8 +75,8 @@
 ## 开发&部署
 1. 克隆项目
 ```bash
-git clone https://github.com/302ai/302_clothing_change
-cd 302_clothing_change
+git clone https://github.com/302ai/302_virtual_try_on
+cd 302_virtual_try_on
 ```
 
 2. 安装依赖
