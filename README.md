@@ -2,13 +2,13 @@
 
 <p align="center">AI Virtual Try On allows you to upload locally or use AI-generated model and clothing images, freely choose models and outfits for AI try-on, and generate model wearing pictures.</p>
 
-<p align="center"><a href="https://302.ai/en/tools/tryon/" target="blank"><img src="https://file.302.ai/gpt/imgs/github/20250102/72a57c4263944b73bf521830878ae39a.png" /></a></p >
+<p align="center"><a href="https://302.ai/product/detail/53" target="blank"><img src="https://file.302.ai/gpt/imgs/github/20250102/72a57c4263944b73bf521830878ae39a.png" /></a></p >
 
 <p align="center"><a href="README_zh.md">中文</a> | <a href="README.md">English</a> | <a href="README_ja.md">日本語</a></p>
 
 ![](docs/302_AI_Virtual_Try_On_en.png)
 
-This is the open-source version of the [AI Virtual Try On](https://302.ai/en/tools/tryon/) from [302.AI](https://302.ai/en/). You can directly log in to 302.AI to use the online version with zero code and zero background, or modify and deploy it yourself according to your requirements.
+This is the open-source version of the [AI Virtual Try On](https://302.ai/product/detail/53) from [302.AI](https://302.ai/en/). You can directly log in to 302.AI to use the online version with zero code and zero background, or modify and deploy it yourself according to your requirements.
 
 
 ## Interface Preview
