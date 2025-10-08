@@ -6,10 +6,10 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint",
-    "prepare": "husky",
-    "commitlint": "commitlint",
-    "commit": "git-cz"
+    "lint": "pnpm biome lint .",
+    "format": "pnpm biome format --write .",
+    "check": "pnpm biome check --apply .",
+    "prepare": "husky"
   },
   "dependencies": {
     "@ai-sdk/openai": "^1.0.13",
@@ -84,37 +84,15 @@
     "zod": "^3.24.1"
   },
   "devDependencies": {
-    "@commitlint/cli": "^19.6.1",
-    "@commitlint/config-conventional": "^19.6.0",
-    "@commitlint/cz-commitlint": "^19.6.1",
-    "@commitlint/prompt-cli": "^19.6.1",
-    "@commitlint/types": "^19.5.0",
+    "@biomejs/biome": "^2.2.5",
     "@types/file-saver": "^2.0.7",
     "@types/node": "^20.17.10",
     "@types/react": "^18.3.17",
     "@types/react-dom": "^18.3.5",
-    "commitizen": "^4.3.1",
-    "eslint": "^8.57.1",
-    "eslint-config-next": "14.2.15",
-    "eslint-config-prettier": "^9.1.0",
     "husky": "^9.1.7",
-    "inquirer": "^9.3.7",
-    "lint-staged": "^15.2.11",
     "postcss": "^8.4.49",
-    "prettier-plugin-tailwindcss": "^0.6.9",
     "tailwindcss": "^3.4.16",
     "typescript": "^5.7.2"
-  },
-  "lint-staged": {
-    "*.{js,jsx,ts,tsx}": [
-      "eslint --fix --config .eslintrc.json --no-cache",
-      "prettier --write"
-    ]
-  },
-  "config": {
-    "commitizen": {
-      "path": "@commitlint/cz-commitlint"
-    }
   },
   "packageManager": "pnpm@9.5.0+sha512.140036830124618d624a2187b50d04289d5a087f326c9edfc0ccd733d76c4f52c3a313d4fc148794a2a9d81553016004e6742e8cf850670268a7387fc220c903"
 }

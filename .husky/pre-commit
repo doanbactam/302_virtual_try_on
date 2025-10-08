@@ -1,1 +1,5 @@
-pnpm lint-staged
+#!/bin/sh
+. "$(dirname "$0")/_/husky.sh"
+
+export PATH="$PATH:$(npm bin)"
+pnpm biome check --apply .
